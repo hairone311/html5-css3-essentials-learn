@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servindo Tags para Formularios - Propriedades</title>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Meu Formulario</legend>
+
+                <p>
+                    Insira seu Nome: <input type="text" required placeholder="Digite o seu nome completo">
+                </p>
+
+                <p>
+                    Numero de BI: <input type="text" pattern="\d{3}\.\d{3}\.\d{3)-\d{2}" required placeholder="Digite o numero do seu BI">
+                </p>
+
+                <p>
+                    Insira seu email: <input type="email" required readonly>
+                </p>
+
+                <p>
+                    Insira sua senha: <input type="password" required disabled>
+                </p>
+
+                <p>
+                    Insira seu sexo:<br>
+                    <input type="radio" name="sexo"> Masculino<br>
+                    <input type="radio" name="sexo"> Feminino
+                </p>
+
+                <p>
+                    Informe a sua tecnologia preferida:<br>
+                    <input type="checkbox" checked> HTML5<br>
+                    <input type="checkbox"> CSS3<br>
+                    <input type="checkbox"> Javascript<br>
+                    <input type="checkbox"> jQuery
+                </p>
+
+                <p>
+                    Selecione um arquivo: <input type="file">
+                </p>
+
+                <p>
+                    Informe uma url: <input type="url">
+                </p>
+
+                <p>
+                    Selecione um curso<br>
+                    <select name="" id="">
+                        <optgroup label="Desenvolvimento">
+                            <option value="">HTML5 e CSS3 Essentials</option>
+                            <option value="">jQuery Essentials</option>
+                        </optgroup>
+
+                        <optgroup label="Programacao">
+                            <option value="">MariaDB Essentials</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    Range: <input type="range">
+                </p>
+
+                <p>
+                    ColorPick: <input type="color">
+                </p>
+
+                <p>
+                    Data: <input type="date">
+                </p>
+
+                <p>
+                    Hora: <input type="time">
+                </p>
+
+                <p>
+                    Data e Hora: <input type="datetime-local">
+                </p>
+
+                <p>
+                    Mes: <input type="month">
+                </p>
+
+                <p>
+                    Semana: <input type="week">
+                </p>
+
+                <p>
+                    <button type="submit">Validar</button>
+                    <button type="reset">Limpar Cmpos</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
