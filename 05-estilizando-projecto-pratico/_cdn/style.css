@@ -151,3 +151,67 @@
 .main_blog article h2 a {
     color: #333;
 }
+
+
+/* Optin */
+
+.main_optin {
+    width: 100%;
+    background-color: #2d3142;
+    margin: 20px 0;
+}
+
+.main_optin_content {
+    max-width: calc(1300px - 40px);
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_optin_content header,
+.main_optin_content form {
+    flex-basis: 50%;
+}
+
+.main_optin_content header h1,
+.main_optin_content header p {
+    color: #FFF;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.main_optin_content header h1 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.main_optin_content header p {
+    font-weight: 300;
+    font-size: 0.875em;
+}
+
+.main_optin_content form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_optin_content form input[type=text],
+.main_optin_content form input[type=email] {
+    flex-basis: 37%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+}
+
+.main_optin_content form button {
+    flex-basis: 20%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: none;
+    color: #FFF;
+    background-color: #D36833;
+    font-size: 0.875em;
+}
