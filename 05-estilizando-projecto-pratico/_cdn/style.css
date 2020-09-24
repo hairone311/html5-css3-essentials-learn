@@ -300,7 +300,7 @@
     justify-content: space-between;
 }
 
-.main_course_rating_content_comment > header {
+.main_course_rating_content_comment>header {
     flex-basis: 100%;
     color: #FFF;
     text-align: center;
@@ -309,7 +309,7 @@
     font-size: 1.8em;
 }
 
-.main_course_rating_content_comment > article {
+.main_course_rating_content_comment>article {
     flex-basis: calc(50% - 20px);
     margin: 20px 0;
     background-color: #EBEBEB;
@@ -320,13 +320,75 @@
     color: #333;
 }
 
-.main_course_rating_content_comment > article h3 {
+.main_course_rating_content_comment>article h3 {
     font-size: 1.2em;
     margin-bottom: 4px;
 }
 
-.main_course_rating_content_comment > article img {
+.main_course_rating_content_comment>article img {
     width: 15px;
     margin-top: 5px;
     margin-bottom: 2px;
+}
+
+/* Dobra Escola */
+
+.main_school {
+    width: 100%;
+}
+
+.main_school_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_header {
+    flex-basis: 100%;
+    padding: 40px 0;
+    color: #333;
+}
+
+.main_school_header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.main_school_content_left {
+    flex-basis: calc(70% - 20px);
+}
+
+.main_school_content_left_social_network {
+    padding: 10px 10px;
+    background-color: #2D3142;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #FFF;
+}
+
+.main_school_content_left_social_network span {
+    margin-left: 20px;
+}
+
+.main_school_content_left_social_network a {
+    color: #FFF;
+    font-size: 0.9em;
+}
+
+.main_school_content_left_social_network a:hover {
+    text-decoration: underline;
+}
+
+.main_school_content_right {
+    flex-basis: 30%;
+}
+
+.main_school_content_right img {
+    width: 100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
