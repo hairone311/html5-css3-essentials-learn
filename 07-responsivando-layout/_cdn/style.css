@@ -639,7 +639,8 @@
 	-webkit-border-radius: 4px 4px 0 0;
 }
 
-.main_header_content_menu_mobile_obj:hover {
+.main_header_content_menu_mobile_obj:hover,
+.main_header_content_menu_mobile_obj_active {
 	background-color: #fff;
 }
 
