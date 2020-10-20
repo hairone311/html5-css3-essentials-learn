@@ -612,7 +612,7 @@
 /* Menu Mobile */
 .main_header_content_menu_mobile {
 	flex-basis: calc(100% - 330px);
-	display: flex;
+	display: none;
 	justify-content: flex-end;
 }
 
@@ -672,4 +672,56 @@
 .main_header_content_menu_mobile_sub li a:hover {
 	background-color: #d36833;
 	color: #fff;
+}
+
+
+/*  1024px */
+@media (max-width: 64em) {
+	.main_cta .main_cta_content h1 {
+		font-size: 2.5em;
+	}
+
+	.main_cta .main_cta_content .main_cta_content_spacer {
+		padding: 100px 30px;
+	}
+}
+
+
+/*  768px */
+@media (max-width: 48em) {
+	.main_header_content_menu {
+		display: none !important;
+	}
+
+	.main_header_content_menu_mobile {
+		display: flex;
+	}
+
+	.main_cta .main_cta_content h1 {
+		font-size: 2em;
+	}
+
+	.main_cta .main_cta_content .main_cta_content_spacer {
+		padding: 60px 30px;
+	}
+
+	.main_cta .main_cta_content .btn {
+		font-size: 0.5em;
+	}
+}
+
+
+/* 480px */
+@media (max-width: 30em) {
+	.main_header .main_header_content .logo {
+		flex-basis: 220px !important;
+	}
+
+	.main_header .main_header_content .logo img {
+		width: 100% !important;
+	}
+
+	.main_header_content_menu_mobile {
+		flex-basis: calc(100% - 220px) !important;
+	}
 }
